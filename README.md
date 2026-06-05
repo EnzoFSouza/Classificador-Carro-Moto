@@ -2,7 +2,25 @@
 
 ## Visão Geral
 
-Este projeto consiste no desenvolvimento de uma aplicação de Inteligência Artificial capaz de classificar imagens de veículos entre as categorias **Carro** e **Moto** utilizando Redes Neurais Convolucionais (CNNs).
+Aplicação de Visão Computacional com Tensorflow/Keras capaz de classificar imagens de veículos entre as categorias **Carro** e **Moto** utilizando **Redes Neurais Convolucionais (CNNs)**, com inferência através de uma **interface Gradio** e **containerizada com Docker**.
+
+## Demonstração
+
+### Exemplo 1 - Classificação de Carro
+
+A imagem abaixo foi corretamente classificada como **Carro**, com aproximadamente 98% de confiança.
+
+![Classificação de Carro](assets/classificacao_carro.png)
+
+---
+
+### Exemplo 2 - Classificação de Moto
+
+A imagem abaixo foi corretamente classificada como **Moto**, com aproximadamente 100% de confiança.
+
+![Classificação de Moto](assets/classificacao_moto.png)
+
+---
 
 O projeto foi desenvolvido com foco em todo o ciclo de vida de uma aplicação de Machine Learning, incluindo:
 
@@ -112,6 +130,9 @@ http://localhost:7860
 
 ```text
 .
+├── assets/
+│   ├── classificacao_carro.png
+│   └── classificacao_moto.png
 ├── notebooks/
 │   └── TreinarModeloCarroMoto.ipynb
 ├── main.py
