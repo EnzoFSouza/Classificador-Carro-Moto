@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Aplicação de Visão Computacional com Tensorflow/Keras capaz de classificar imagens de veículos entre as categorias **Carro** e **Moto** utilizando **Redes Neurais Convolucionais (CNNs)**, com inferência através de uma **interface Gradio** e **containerizada com Docker**.
+Aplicação de Visão Computacional com Tensorflow/Keras capaz de classificar imagens de veículos entre as categorias **Carro** e **Moto** utilizando **Redes Neurais Convolucionais (CNNs)**, com inferência através de uma **interface Gradio** e **conteinerizada com Docker**.
 
 ## Demonstração
 
@@ -27,7 +27,7 @@ O projeto foi desenvolvido com foco em todo o ciclo de vida de uma aplicação d
 * Coleta e preparação dos dados;
 * Treinamento e avaliação do modelo;
 * Construção de interface para inferência;
-* Containerização da aplicação com Docker;
+* Conteinerização da aplicação com Docker;
 * Versionamento utilizando Git e GitHub.
 
 ---
@@ -44,7 +44,7 @@ O projeto foi desenvolvido com foco em todo o ciclo de vida de uma aplicação d
 
 * Gradio
 
-### Containerização
+### Conteinerização
 
 * Docker
 
@@ -75,7 +75,7 @@ Foi utilizado um dataset público de classificação de veículos disponibilizad
 6. Avaliação do modelo em conjunto de validação.
 7. Exportação do modelo treinado.
 8. Desenvolvimento de interface interativa com Gradio.
-9. Containerização da aplicação utilizando Docker.
+9. Conteinerização da aplicação utilizando Docker.
 
 ---
 
@@ -152,7 +152,7 @@ Este projeto demonstra conhecimentos práticos em:
 * Processamento de imagens;
 * Avaliação de modelos de Machine Learning;
 * Desenvolvimento de interfaces para IA;
-* Containerização com Docker;
+* Conteinerização com Docker;
 * Controle de versão com Git e GitHub;
 * Estruturação de projetos de Machine Learning para implantação.
 
