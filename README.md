@@ -4,6 +4,10 @@
 
 Aplicação de Visão Computacional com Tensorflow/Keras capaz de classificar imagens de veículos entre as categorias **Carro** e **Moto** utilizando **Redes Neurais Convolucionais (CNNs)**, com inferência através de uma **interface Gradio** e **conteinerizada com Docker**.
 
+## Acesse a Aplicação
+
+**Hugging Face Spaces**: https://huggingface.co/spaces/EnzoFSouza/Classificador-Carro-Moto
+
 ## Demonstração
 
 ### Exemplo 1 - Classificação de Carro
